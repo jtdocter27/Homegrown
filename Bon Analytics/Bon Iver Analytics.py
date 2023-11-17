@@ -11,8 +11,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 get_ipython().run_line_magic('matplotlib', 'inline')
-
-
+print('initial imports succesful')
 # ### Reading in the Excel Sheet
 
 # In[2]:
