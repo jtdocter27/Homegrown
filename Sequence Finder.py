@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
+#Initial Imports
 import Bio
 from Bio import Entrez
 from Bio import SeqIO
@@ -12,7 +10,7 @@ from Bio import SeqIO
 # In[2]:
 
 
-Entrez.email = 'jtdocter@gmail.com'
+Entrez.email = 'your-email'
 handle = Entrez.efetch(db="nucleotide", id="NC_000913", rettype="fasta", retmode="text")
 record = SeqIO.read(handle, "fasta")
 
