@@ -1,4 +1,6 @@
-What each Code does. 
+What each script does. 
+
+
 Acronym Definer: Takes in a string, matches it to a dictionary, and outputs the word. 
   This was a lesson in making a tiny program that functions. 
 
